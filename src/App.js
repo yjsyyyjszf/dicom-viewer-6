@@ -1,10 +1,9 @@
 import React from 'react';
 
 import Header from './components/layout/header';
-import AxialView from './components/axial-view';
-import CoronalView from './components/coronal-view';
-import SagittalView from './components/sagittal-view';
+import ImageViewer from './components/image-viewer';
 
+import brainX from './media/brain-x.jpg';
 import './App.css';
 
 
@@ -12,9 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AxialView />
-      <CoronalView />
-      <SagittalView />
+      <ImageViewer header='View' image={brainX} />
     </div>
   );
 }
