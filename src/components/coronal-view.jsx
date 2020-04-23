@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './view.scss';
 import brainY from '../media/brain-y.jpg';
 
 const CoronalView = () => (

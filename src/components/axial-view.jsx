@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './view.scss';
 import brainX from '../media/brain-x.jpg';
 
 const AxialView = () => (

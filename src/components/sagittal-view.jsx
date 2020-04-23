@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './view.scss';
 import brainZ from '../media/brain-z.jpg';
 
 const SagittalView = () => (
